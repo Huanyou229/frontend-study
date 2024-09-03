@@ -12,3 +12,4 @@ console.log(obj1)
 
 let obj2 = arrs.findLast((obj)=> obj.color ==='白色')
 console.log(obj2)
+
