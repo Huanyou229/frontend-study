@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>使⽤ JavaScript 操作视频</title>
+	</head>
+	<body>
+		<div style="width: 800px; height: 600px">
+			<video
+				id="video1"
+				style="width: 100%; height: 100%; object-fit: fill"
+				controls>
+				<source src="test.mp4" type="video/mp4" />
+				<span>您的浏览器不⽀持 video 标签</span>
+			</video>
+		</div>
+		<button onclick="toPlay()">暂停/播放</button>
+		<button onclick="setVolume()">设置⾳量</button>
+		<button onclick="forward()">快进 15 秒</button>
+		<script>
+			const video = document.getElementById('video1')
+			// 播放/暂停
+			const toPlay = () => {
+				if (video.paused) {
+					video.play() // 播放
+				} else {
+					video.pause() // 暂停
+				}
+			}
+			// 设置⾳量，⾳量范围为 0~1
+			const setVolume = () => {
+				video.volume = 0.3 // 30%
+				// video.volume = 0 // 静⾳
+			}
+			// 快进 15 秒
+			const forward = () => {
+				// video.duration 表示视频总时⻓，单位为秒
+				// video.currentTime 表示视频已播放时⻓，单位为秒
+				let long = 15
+				if (video.duration > video.currentTime + long) {
+					// 快进 15 秒还没到总时⻓，就加 15 秒
+					video.currentTime = video.currentTime + long
+				} else {
+					video.currentTime = video.duration // 直接到末尾
+				}
+			}
+		</script>
+	</body>
+</html>

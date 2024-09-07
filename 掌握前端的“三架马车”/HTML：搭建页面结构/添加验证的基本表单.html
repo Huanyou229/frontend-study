@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Document</title>
+	</head>
+	<body>
+		<form id="form1">
+			<input
+				type="text"
+				name="name"
+				placeholder="输⼊姓名"
+				maxlength="5"
+				required/>
+			<input
+				type="number"
+				name="age"
+				placeholder="输⼊年龄"
+				min="15"
+				max="65"
+				required
+				style="width: 100px"/>
+			<input
+				type="text"
+				name="gender"
+				value="女"
+				placeholder="输⼊性别"
+				required
+				disabled/>
+			<input type="submit" value="提交" />
+			<input form="form1" name="other" placeholder="输⼊额外信息" required / >
+		</form>
+	</body>
+</html>
