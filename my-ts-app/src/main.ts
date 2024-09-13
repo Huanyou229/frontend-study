@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         text: string;       // 待办事项的文本内容
         completed: boolean; // 是否完成的状态
     }
+    
 
     // 创建一个空数组，用于存储待办事项
     const todos: Todo[] = [];
