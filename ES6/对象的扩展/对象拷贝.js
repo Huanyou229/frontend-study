@@ -5,6 +5,12 @@
 // console.log(a)
 // console.log(b)
 
+// var obj = {}
+// var obj2 = { b: 2 }
+// var obj3 = { c: 3 }
+// Object.assign(obj, obj2, obj3)
+// console.log(obj) //{ b: 2, c: 3 }
+
 // 深拷贝
 let obj1 = {
     name:'电影',

@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+  /**
+  * 指定 ECMAScript ⽬标版本
+  * ES6 是 ECMAScript 2015 的别名，⽀持现代 JavaScript 语法，如箭头函数、类等
+  */
+  "target": "ES6",
+  
+  /**
+  * 指定模块系统
+  * "commonjs" 是 Node.js 默认的模块系统，也适⽤于许多打包⼯具
+  */
+  "module": "commonjs",
+  
+  /**
+  * 指定 TypeScript 编译器输出的⽬录
+  * 编译后的 JavaScript ⽂件将被输出到 ./dist ⽬录
+  */
+  "outDir": "./dist",
+  
+  /**
+  * 启⽤所有严格类型检查选项
+  * 包括 strictNullChecks、strictFunctionTypes、strictPropertyInitializa
+ tion 等
+  */
+  "strict": true,
+  
+  /**
+  * 允许从 CommonJS 模块中导⼊ ES6 模块
+  * 使得默认导⼊和命名导⼊与其他模块系统兼容
+  */
+  "esModuleInterop": true,
+  
+  /**
+  * 跳过库⽂件的类型检查
+  * 可以减少编译时间，尤其是对于⼤型项⽬
+  */
+  "skipLibCheck": true
+  },
+  
+  /**
+  * 指定要包含在编译中的⽂件
+  * 这⾥包含了 src ⽬录中的所有 TypeScript ⽂件
+  */
+  "include": ["src"]
+}

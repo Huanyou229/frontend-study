@@ -6,3 +6,6 @@ let arrs = [
 ]
 let result = arrs.filter((obj)=>obj.color === '绿色')
 console.log(result);
+
+var flarr = arrs.slice(1, 2)
+console.log(flarr)

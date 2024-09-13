@@ -16,6 +16,6 @@ nd I am ${this.age} years old.`;
         }
     };
 }
-const person: Person=createPerson('John','Doe',30)
+const person: Person = createPerson('John', 'Doe', 30)
 // VSCode 会在这里提供智能提示，如显示person对象的属性和方法
 console.log(person.greet())

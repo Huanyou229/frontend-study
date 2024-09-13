@@ -22,7 +22,7 @@ const fs = require('fs')
 // 检查文件状态
 try {
     // 使用 fs.statSync 同步获取文件状态信息
-    let status = fs.statSync('E:/Projects/frontend-study/NodeJS/内置模块/test.txt');
+    let status = fs.statSync('');
     
     // 检查路径是否是文件
     console.log(status.isFile());  // 输出: true 如果是文件
