@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// import UserForm from './components/UserForm.vue';
 // import Render from './components/Render.vue';
 // import Mustache from './components/Mustache.vue';
 // import WuKong2 from './components/WuKong2.vue';
@@ -54,11 +55,27 @@
 // import Parent from './components/Parent.vue';
 // import increment from './components/increment.vue';
 // import DOM1 from './components/DOM1.vue';
-import DOM2 from './components/DOM2.vue';
+// import DOM2 from './components/DOM2.vue';
+// import UserForm1 from './components/UserForm1.vue';
+// import UserProfileParent from './components/UserProfileParent.vue';
+// import UserForm1Parent from './components/UserForm1Parent.vue';
+// import DataFetcher from './components/DataFetcher.vue';
+// import CardParent from './components/CardParent.vue';
+// import SendEmail from './components/SendEmail.vue';
+// import LoginForm from './components/LoginForm.vue';
+// import ProductsList from './components/ProductsList.vue';
+import Home from './components/Home.vue';
+// import Menu from './components/Menu.vue';
+// import UploadAvatar from './components/UploadAvatar.vue';
+// import NodeCard from './components/NodeCard.vue';
+// import TextPrinter from './components/TextPrinter.vue';
+
+
 
 </script>
 
 <template>
+
   <!-- <Render /> -->
   <!-- <Mustache/> -->
   <!-- <WuKong2/> -->
@@ -113,5 +130,18 @@ import DOM2 from './components/DOM2.vue';
   <!-- <Parent/> -->
   <!-- <increment /> -->
   <!-- <DOM1/> -->
-  <DOM2 />
+  <!-- <DOM2 /> -->
+  <!-- <UserForm1 /> -->
+  <!-- <UserProfileParent /> -->
+  <!-- <UserForm1Parent /> -->
+  <!-- <DataFetcher /> -->
+  <!-- <CardParent /> -->
+  <!-- <SendEmail /> -->
+  <!-- <LoginForm /> -->
+  <!-- <ProductsList /> -->
+  <Home />
+  <!-- <Menu /> -->
+  <!-- <UploadAvatar /> -->
+  <!-- <TextPrinter /> -->
+  <!-- <NodeCard /> -->
 </template>

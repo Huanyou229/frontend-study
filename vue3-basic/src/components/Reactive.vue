@@ -17,3 +17,5 @@ const increaseAge = (): void => {
     user.age++
 }
 </script>
+<!--user 是⼀个响应式对象，使⽤ reactive 定义并指定了类型 { name: string; ag
+e: number } ； 当修改 user.age 时，Vue 会追踪变化并⾃动更新相关视图。  -->

@@ -1,3 +1,4 @@
+<!-- 监听⽤户输⼊并打印 -->
 <template>
     <div>
         <input v-model="searchQuery" placeholder="搜索关键词" />

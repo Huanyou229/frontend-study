@@ -18,4 +18,5 @@ const users = ref<User[]>([
     { id: 2, name: '李四', age: 30 },
     { id: 3, name: '王五', age: 35 },])
 </script>
-<!-- 使⽤ v-for 遍历 users 数组，每个⽤户是⼀个对象； 每个 li 标签展示⽤户的 name 和 age ，并且使⽤ user.id 作为唯⼀标识符 -->
+<!-- 使⽤ v-for 遍历 users 数组，每个⽤户是⼀个对象； 
+ 每个 li 标签展示⽤户的 name 和 age ，并且使⽤ user.id 作为唯⼀标识符 -->

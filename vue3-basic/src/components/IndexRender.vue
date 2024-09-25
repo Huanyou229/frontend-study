@@ -1,3 +1,4 @@
+<!-- 使⽤索引渲染列表 -->
 <template>
     <ul>
         <li v-for="(item, index) in items" :key="index">

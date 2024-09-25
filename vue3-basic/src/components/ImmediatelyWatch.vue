@@ -13,3 +13,4 @@ watch(userName, (newName) => {
     console.log(`⽤户名为：${newName}`)
 }, { immediate: true })
 </script>
+<!-- immediate: true 选项确保在组件加载时，监听器⽴即执⾏，并打印初始的⽤户名。 -->
