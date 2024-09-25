@@ -63,8 +63,8 @@
 // import CardParent from './components/CardParent.vue';
 // import SendEmail from './components/SendEmail.vue';
 // import LoginForm from './components/LoginForm.vue';
-// import ProductsList from './components/ProductsList.vue';
-import Home from './components/Home.vue';
+import ProductsList from './components/ProductsList.vue';
+// import Home from './components/Home.vue';
 // import Menu from './components/Menu.vue';
 // import UploadAvatar from './components/UploadAvatar.vue';
 // import NodeCard from './components/NodeCard.vue';
@@ -138,8 +138,8 @@ import Home from './components/Home.vue';
   <!-- <CardParent /> -->
   <!-- <SendEmail /> -->
   <!-- <LoginForm /> -->
-  <!-- <ProductsList /> -->
-  <Home />
+  <ProductsList />
+  <!-- <Home /> -->
   <!-- <Menu /> -->
   <!-- <UploadAvatar /> -->
   <!-- <TextPrinter /> -->
