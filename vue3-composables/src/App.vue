@@ -8,7 +8,14 @@
   <!-- <FormValidation /> -->
   <!-- <DarkMode /> -->
   <!-- <useCssVar /> -->
-  <useEyeDropper />
+  <!-- <useEyeDropper /> -->
+  <!-- <useFileDialog /> -->
+  <!-- <useFullscreen /> -->
+  <!-- <useObjectUrl /> -->
+  <!-- <useTextareaAutosize /> -->
+  <!-- <useParallax /> -->
+  <!-- <usePointerLock /> -->
+  <usePointerSwipe />
 
 </template>
 
@@ -22,7 +29,14 @@
 // import FormValidation from './components/FormValidation.vue';
 // import DarkMode from './components/DarkMode.vue';
 // import useCssVar from './vueuse/useCssVar.vue';
-import useEyeDropper from './vueuse/useEyeDropper.vue';
+// import useEyeDropper from './vueuse/useEyeDropper.vue';
+// import useFileDialog from './vueuse/useFileDialog.vue';
+// import useFullscreen from './vueuse/useFullscreen.vue';
+// import useObjectUrl from './vueuse/useObjectUrl.vue';
+// import useTextareaAutosize from './vueuse/useTextareaAutosize.vue';
+// import useParallax from './vueuse/useParallax.vue';
+// import usePointerLock from './vueuse/usePointerLock.vue';
+import usePointerSwipe from './vueuse/usePointerSwipe.vue';
 </script>
 
 <style scoped></style>

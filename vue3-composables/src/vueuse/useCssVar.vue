@@ -3,6 +3,7 @@ import { useCssVar } from '@vueuse/core' // 引入 useCssVar 函数，用于处�
 import { ref } from 'vue' // 引入 Vue 的 ref 函数，用于创建响应式引用
 
 // 定义一个响应式引用 el，用于引用第一个 <div> 元素
+// 初始值为 null，在模板中引用一个 <div> 元素。类型为 HTMLDivElement | null，表示它可以是一个 HTMLDivElement 或 null
 const el = ref<HTMLDivElement | null>(null)
 // 使用 useCssVar 函数获取与 el 相关联的 CSS 变量 '--color'
 const color = useCssVar('--color', el)
