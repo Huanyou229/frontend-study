@@ -3,7 +3,7 @@
   <!-- <LocalStorage /> -->
   <!-- <Mouse /> -->
   <!-- <ResizeWindow /> -->
-  <!-- <Countdown /> -->
+  <Countdown />
   <!-- <SmsSender /> -->
   <!-- <FormValidation /> -->
   <!-- <DarkMode /> -->
@@ -15,7 +15,7 @@
   <!-- <useTextareaAutosize /> -->
   <!-- <useParallax /> -->
   <!-- <usePointerLock /> -->
-  <usePointerSwipe />
+  <!-- <usePointerSwipe /> -->
 
 </template>
 
@@ -24,7 +24,7 @@
 // import LocalStorage from './components/LocalStorage.vue';
 // import Mouse from './components/Mouse.vue';
 // import ResizeWindow from './components/ResizeWindow.vue';
-// import Countdown from './components/Countdown.vue';
+import Countdown from './components/Countdown.vue';
 // import SmsSender from './components/SmsSender.vue';
 // import FormValidation from './components/FormValidation.vue';
 // import DarkMode from './components/DarkMode.vue';
@@ -36,7 +36,7 @@
 // import useTextareaAutosize from './vueuse/useTextareaAutosize.vue';
 // import useParallax from './vueuse/useParallax.vue';
 // import usePointerLock from './vueuse/usePointerLock.vue';
-import usePointerSwipe from './vueuse/usePointerSwipe.vue';
+// import usePointerSwipe from './vueuse/usePointerSwipe.vue';
 </script>
 
 <style scoped></style>

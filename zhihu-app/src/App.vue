@@ -1,10 +1,12 @@
 <template>
 
-  <ZhiHuHot />
+  <!-- <ZhiHuHot /> -->
+  <Specials />
 </template>
 
 <script setup lang="ts">
-import ZhiHuHot from './components/ZhiHuHot.vue';
+// import ZhiHuHot from './components/ZhiHuHot.vue';
+import Specials from './components/Specials.vue';
 
 
 </script>
