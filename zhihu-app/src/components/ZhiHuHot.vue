@@ -60,10 +60,11 @@ const list = ref<Special[]>([]);
 //         console.error(err);
 //     });
 
-const limit = ref<number>(4);
-const offset = ref<number>(0);
-const total = ref<number>(0);
+const limit = ref<number>(4);   //每页条数
+const offset = ref<number>(0);  //偏移量
+const total = ref<number>(0);   //总条数
 
+// 请求分页接口
 const fetchByPage = (): void => {
     axios
         .get(`http://localhost:8080/api/v1/special/page?limit=${limit.value}&offset=${offset.value}`)
@@ -84,7 +85,7 @@ const fetchByPage = (): void => {
 }
 
 
-// 点击下一页
+// 点击下一页，注意都是计算offset偏移量，计算完毕后要重新调用fetchByPage方法请求数据
 const nextPage = (): void => {
     if (offset.value + limit.value >= list.value.length) {
         offset.value += limit.value;
@@ -100,9 +101,11 @@ const prevPage = (): void => {
     fetchByPage();
 };
 
+// 两个计算属性，是否第一页，是否最后一页
 const isFirstPage = computed(() => offset.value === 0);
 const isLastPage = computed(() => offset.value + limit.value >= total.value);
 
+// 页面加载生命周期，调用分页查询函数
 onMounted(() => {
     fetchByPage();
 });
