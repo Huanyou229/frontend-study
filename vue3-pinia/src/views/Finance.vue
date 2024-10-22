@@ -145,6 +145,13 @@ const removeTransaction = (index) => {
     /* 边框圆角 */
 }
 
+.form-section button {
+    background-color: #abdef4;
+    /* 背景颜色 */
+    border-radius: 6px;
+    border-color: #fff;
+}
+
 /* 统计信息部分样式 */
 .summary-section {
     margin-top: 20px;
