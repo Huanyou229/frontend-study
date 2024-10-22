@@ -9,7 +9,7 @@ interface Todo {
     completed: boolean;
 }
 
-// 定义Store,
+// 定义Store
 export const useTodoStore = defineStore('todo', () => {
     // 定义状态数组 todos
     const todos = ref<Todo[]>([]);
@@ -45,5 +45,4 @@ export const useTodoStore = defineStore('todo', () => {
         storage: localStorage,
     },
 }
-
 );

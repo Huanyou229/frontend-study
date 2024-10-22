@@ -12,3 +12,4 @@
 - vue3-composables 组合式函数的学习
 - vue3-router 路由管理的学习
 - router-bookonline 线上书店练习
+- vue3-pinia Pinia 状态管理的学习
