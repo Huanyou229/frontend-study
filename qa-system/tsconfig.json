@@ -3,5 +3,12 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@toast-ui/editor": ["node_modules/@toast-ui/editor/types/index.d.ts"],
+      "@toast-ui/editor-plugin-code-syntax-highlight": ["node_modules/@toast-ui/editor-plugin-code-syntax-highlight/types/index.d.ts"]
+    }
+  }
 }
