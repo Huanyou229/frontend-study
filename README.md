@@ -14,5 +14,4 @@
 - router-bookonline 线上书店练习
 - vue3-pinia Pinia 状态管理的学习
 - vue3-axios Axios 网络请求的学习
-- product-management-web 商品管理联系前端
-- product-management-api 商品联系管理后端
+- product-management-web 商品管理练习前端
