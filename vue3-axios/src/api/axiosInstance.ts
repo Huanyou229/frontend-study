@@ -9,6 +9,7 @@ const api = axios.create({
         Authorization: `Bearer ${localStorage.getItem("token")}`,
     },
 });
+
 // 请求拦截器
 api.interceptors.request.use(
     config => {
