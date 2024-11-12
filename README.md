@@ -17,3 +17,4 @@
 - product-management 商品管理练习(Axios)
 - project-web 后台管理系统
 - vue-template 代码规范与 git 规范的学习
+- dynamic-route 动态路由与自定义指令的学习
